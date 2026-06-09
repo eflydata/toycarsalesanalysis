@@ -1,8 +1,8 @@
-# Auto Sales SQL Analysis Project
+# Toy Car Sales SQL Analysis Project
 
 ## Overview
 
-This project contains a relational database schema and a set of analytical SQL queries designed to explore sales performance for an auto sales business. It focuses on extracting insights such as top-performing products, customer segmentation, and geographic distribution of customers.
+This project contains a relational database schema and a set of analytical SQL queries designed to explore sales performance for an toy car sales business. It focuses on extracting insights such as top-performing products, customer segmentation, and geographic distribution of customers.
 
 ---
 
@@ -104,7 +104,7 @@ The project includes several business-focused SQL queries:
 
 ## How to Use
 
-1. **Set up the database**
+1. **Create the database**
 
    ```sql
    SOURCE db_setup.sql;
@@ -116,7 +116,7 @@ The project includes several business-focused SQL queries:
    SOURCE analysis.sql;
    ```
 
-3. Use a SQL client such as MySQL Workbench, DBeaver, or any compatible tool.
+3. Used SQL client MySQL Workbench 8.0
 
 ---
 
@@ -127,26 +127,6 @@ The project includes several business-focused SQL queries:
 * Common Table Expressions (CTEs)
 * Joins (INNER, LEFT)
 * Data grouping and ranking
-
----
-
-## Purpose
-
-This project is ideal for:
-
-* Practicing SQL for data analysis
-* Understanding relational database design
-* Demonstrating business intelligence queries
-* Portfolio projects for data analysts
-
----
-
-## Notes
-
-* Ensure your SQL environment supports window functions (e.g., MySQL 8+)
-* Data population scripts are not included and should be added separately
-
----
 
 ## Future Improvements
 
